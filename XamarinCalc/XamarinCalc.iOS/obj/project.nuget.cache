@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "FsDwdvOeRVk5plRZc2aW+kaIV2wrleXr8pwzXzkX0D7nt9tDD6lSfHywd9kxZ+04/jgk5xdMwe0bURUmtsp5iw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Aurimas\\Desktop\\xamarincalc\\XamarinCalc\\XamarinCalc\\XamarinCalc.iOS\\XamarinCalc.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.8.0.1451\\xamarin.forms.4.8.0.1451.nupkg.sha512"
+  ],
+  "logs": []
+}

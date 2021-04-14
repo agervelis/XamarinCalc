@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="XamarinCalc.SecondPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:XamarinCalc">
+    <ContentPage.BindingContext>
+        <local:SecondViewModel/>
+    </ContentPage.BindingContext>
+    <ContentPage.Content>
+        <StackLayout>
+            <Entry x:Name="EntryText" Placeholder="Enter text" Text="{Binding Name}"/>
+            <Slider
+                MinimumTrackColor="Black"
+                MaximumTrackColor="DarkSlateGray"
+                ThumbColor="DarkSlateGray"
+                Minimum="0" Maximum="1" Value="1" x:Name="SliderVolume"/>
+            <Button Clicked="Button_Clicked" Text="Speak"/>
+            <Label Text="{Binding DisplayName}"/>
+            <Button
+                BackgroundColor="Blue"
+                Clicked="NavigateButton_OnClicked"
+                Text="Main Page" />
+        </StackLayout>
+
+    </ContentPage.Content>
+</ContentPage>

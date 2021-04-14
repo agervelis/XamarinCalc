@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="XamarinCalc.MainPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+
+
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="100" />
+
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="30" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+
+        <Label
+            x:Name="OutputTextBlock"
+            Grid.Row="0"
+            Grid.Column="0"
+            Grid.ColumnSpan="4"
+            Margin="5"
+            FontSize="50"
+            Text="{Binding output}" />
+        <Button
+            x:Name="Window2Btn"
+            Grid.Row="6"
+            Grid.Column="3"
+            Clicked="Window2Btn_Clicked"
+            FontSize="10"
+            BackgroundColor="Blue"
+            Text="second window" />
+        <Button
+            x:Name="TTS"
+            Grid.Row="6"
+            Grid.Column="1"
+            Clicked="TTS_Clicked"
+            FontSize="10"
+            Text="TTS" />
+        <Button
+            x:Name="ClearBtn"
+            Grid.Row="1"
+            Grid.Column="2"
+            Clicked="ClearBtn_Clicked"
+            FontSize="25"
+            Text="C" />
+        <Button
+            x:Name="SqrtBtn"
+            Grid.Row="1"
+            Grid.Column="1"
+            Clicked="SqrtBtn_Clicked"
+            FontSize="25"
+            Text="sqrt" />
+        <Button
+            x:Name="SquareBtn"
+            Grid.Row="1"
+            Grid.Column="0"
+            Clicked="SquareBtn_Clicked"
+            FontSize="25"
+            Text="^2" />
+        <Button
+            x:Name="DivideBtn"
+            Grid.Row="1"
+            Grid.Column="3"
+            Clicked="DivideBtn_Clicked"
+            FontSize="25"
+            Text="/" />
+        <Button
+            x:Name="SevenBtn"
+            Grid.Row="2"
+            Grid.Column="0"
+            Clicked="SevenBtn_Clicked"
+            FontSize="25"
+            Text="7" />
+        <Button
+            x:Name="EightBtn"
+            Grid.Row="2"
+            Grid.Column="1"
+            Clicked="EightBtn_Clicked"
+            FontSize="25"
+            Text="8" />
+        <Button
+            x:Name="NineBtn"
+            Grid.Row="2"
+            Grid.Column="2"
+            Clicked="NineBtn_Clicked"
+            FontSize="25"
+            Text="9" />
+        <Button
+            x:Name="FourBtn"
+            Grid.Row="3"
+            Grid.Column="0"
+            Clicked="FourBtn_Clicked"
+            FontSize="25"
+            Text="4" />
+        <Button
+            x:Name="FiveBtn"
+            Grid.Row="3"
+            Grid.Column="1"
+            Clicked="FiveBtn_Clicked"
+            FontSize="25"
+            Text="5" />
+        <Button
+            x:Name="SixBtn"
+            Grid.Row="3"
+            Grid.Column="2"
+            Clicked="SixBtn_Clicked"
+            FontSize="25"
+            Text="6" />
+        <Button
+            x:Name="OneBtn"
+            Grid.Row="4"
+            Grid.Column="0"
+            Clicked="OneBtn_Clicked"
+            FontSize="25"
+            Text="1" />
+        <Button
+            x:Name="TwoBtn"
+            Grid.Row="4"
+            Grid.Column="1"
+            Clicked="TwoBtn_Clicked"
+            FontSize="25"
+            Text="2" />
+        <Button
+            x:Name="ThreeBtn"
+            Grid.Row="4"
+            Grid.Column="2"
+            Clicked="ThreeBtn_Clicked"
+            FontSize="25"
+            Text="3" />
+        <Button
+            x:Name="ZeroBtn"
+            Grid.Row="5"
+            Grid.Column="1"
+            Clicked="ZeroBtn_Clicked"
+            FontSize="25"
+            Text="0" />
+        <Button
+            x:Name="EqualsBtn"
+            Grid.Row="5"
+            Grid.Column="3"
+            Clicked="EqualsBtn_Clicked"
+            FontSize="25"
+            Text="=" />
+        <Button
+            x:Name="TimesBtn"
+            Grid.Row="2"
+            Grid.Column="3"
+            Clicked="TimesBtn_Clicked"
+            FontSize="25"
+            Text="X" />
+        <Button
+            x:Name="MinusBtn"
+            Grid.Row="3"
+            Grid.Column="3"
+            Clicked="MinusBtn_Clicked"
+            FontSize="25"
+            Text="-" />
+        <Button
+            x:Name="PlusBtn"
+            Grid.Row="4"
+            Grid.Column="3"
+            Clicked="PlusBtn_Clicked"
+            FontSize="25"
+            Text="+" />
+    </Grid>
+</ContentPage>

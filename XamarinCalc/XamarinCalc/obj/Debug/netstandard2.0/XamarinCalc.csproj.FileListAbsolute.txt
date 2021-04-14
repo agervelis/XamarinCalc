@@ -1,0 +1,15 @@
+C:\Users\Aurimas\Desktop\xamarincalc\XamarinCalc\XamarinCalc\XamarinCalc\bin\Debug\netstandard2.0\XamarinCalc.deps.json
+C:\Users\Aurimas\Desktop\xamarincalc\XamarinCalc\XamarinCalc\XamarinCalc\bin\Debug\netstandard2.0\XamarinCalc.dll
+C:\Users\Aurimas\Desktop\xamarincalc\XamarinCalc\XamarinCalc\XamarinCalc\bin\Debug\netstandard2.0\ref\XamarinCalc.dll
+C:\Users\Aurimas\Desktop\xamarincalc\XamarinCalc\XamarinCalc\XamarinCalc\bin\Debug\netstandard2.0\XamarinCalc.pdb
+C:\Users\Aurimas\Desktop\xamarincalc\XamarinCalc\XamarinCalc\XamarinCalc\obj\Debug\netstandard2.0\XamarinCalc.csprojAssemblyReference.cache
+C:\Users\Aurimas\Desktop\xamarincalc\XamarinCalc\XamarinCalc\XamarinCalc\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Aurimas\Desktop\xamarincalc\XamarinCalc\XamarinCalc\XamarinCalc\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Aurimas\Desktop\xamarincalc\XamarinCalc\XamarinCalc\XamarinCalc\obj\Debug\netstandard2.0\XamarinCalc.AssemblyInfoInputs.cache
+C:\Users\Aurimas\Desktop\xamarincalc\XamarinCalc\XamarinCalc\XamarinCalc\obj\Debug\netstandard2.0\XamarinCalc.AssemblyInfo.cs
+C:\Users\Aurimas\Desktop\xamarincalc\XamarinCalc\XamarinCalc\XamarinCalc\obj\Debug\netstandard2.0\XamarinCalc.csproj.CoreCompileInputs.cache
+C:\Users\Aurimas\Desktop\xamarincalc\XamarinCalc\XamarinCalc\XamarinCalc\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Aurimas\Desktop\xamarincalc\XamarinCalc\XamarinCalc\XamarinCalc\obj\Debug\netstandard2.0\XamarinCalc.dll
+C:\Users\Aurimas\Desktop\xamarincalc\XamarinCalc\XamarinCalc\XamarinCalc\obj\Debug\netstandard2.0\ref\XamarinCalc.dll
+C:\Users\Aurimas\Desktop\xamarincalc\XamarinCalc\XamarinCalc\XamarinCalc\obj\Debug\netstandard2.0\XamarinCalc.pdb
+C:\Users\Aurimas\Desktop\xamarincalc\XamarinCalc\XamarinCalc\XamarinCalc\obj\Debug\netstandard2.0\SecondPage.xaml.g.cs
